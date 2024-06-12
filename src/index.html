@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./output.css" />
+        <title>Frontend Mentor | Stats preview card component</title>
+    </head>
+    <body
+        class="bg-black h-screen w-screen flex flex-col justify-center items-center font-main"
+    >
+        <div
+            class="container flex flex-col gap-[2rem] w-[32.7rem] h-[78rem] bg-[#1B1937] desktop:flex-row desktop:w-[111rem] desktop:h-[44.6rem]"
+        >
+            <div
+                class="background-images-section bg-[#AB5CDB] h-[24rem] desktop:h-full"
+            >
+                <img
+                    src="../images/image-header-mobile.jpg"
+                    alt="images header mobile"
+                    class="mix-blend-multiply opacity-[75.11%%] desktop:hidden bg-cover"
+                />
+            </div>
+
+            <section
+                class="paragraph flex flex-col text-center p-[2.5rem] gap-[2rem] desktop:max-w-[50%] desktop:p-[5rem] desktop:text-left desktop:gap-[5rem]"
+            >
+                <h2
+                    class="text-[2.8rem] text-white font-bold leading-[3.2rem] desktop:text-[3.6rem] desktop:leading-tight"
+                >
+                    Get <span class="text-[#AB5CDB]">insights</span> that help
+                    your business grow.
+                </h2>
+                <p
+                    class="text-[#FFFFFF] text-[1.5rem] opacity-[75%] w-[26.4rem] desktop:w-[37.4rem]"
+                >
+                    Discover the benefits of data analytics and make better
+                    decisions regarding revenue, customer experience, and
+                    overall efficiency.
+                </p>
+                <div
+                    class="numbers flex flex-col gap-[2rem] desktop:flex-row desktop:gap-[8rem]"
+                >
+                    <div class="flex flex-col gap-[0.5rem]">
+                        <h4 class="text-[2.4rem] font-bold text-white">10k+</h4>
+                        <p
+                            class="text-[1.2rem] font-sub opacity-[60%] text-white"
+                        >
+                            COMPANIES
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-[0.5rem]">
+                        <h4 class="text-[2.4rem] font-bold text-white">314</h4>
+                        <p
+                            class="text-[1.2rem] font-sub opacity-[60%] text-white"
+                        >
+                            TEMPLATE
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-[0.5rem]">
+                        <h4 class="text-[2.4rem] font-bold text-white">12M+</h4>
+                        <p
+                            class="text-[1.2rem] font-sub opacity-[60%] text-white"
+                        >
+                            QUERIES
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <div
+                class="background-images-section bg-[#AB5CDB] h-[24rem] desktop:h-full"
+            >
+                <img
+                    src="../images/image-header-desktop.jpg"
+                    alt="images header desktop"
+                    class="mix-blend-multiply opacity-[75.11%%] desktop:block h-full"
+                />
+            </div>
+        </div>
+    </body>
+</html>
