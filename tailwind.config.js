@@ -10,12 +10,6 @@ module.exports = {
             mobile: "375px",
             desktop: "1440px",
         },
-        extend: {
-            backgroundImage: {
-                mobile: "url('/images/image-header-mobile.jpg')",
-                desktop: "url('/images/image-header-desktop.jpg')",
-            },
-        },
     },
     plugins: [],
 };
